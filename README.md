@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.org/victoriarobotics/victoria_simulator.svg?branch=master)](https://travis-ci.org/victoriarobotics/victoria_simulator)
-# victoria_simulator
-Gazebo simulation of the Victoria Platform.
+# kitt_simulator
+Gazebo simulation of the Kitt Platform.
 
 # Requirements:
 
@@ -8,15 +7,16 @@ Gazebo simulation of the Victoria Platform.
 - Gazebo 7
 - ros-kinectic-filters
 - ros-kinectic-laser-geometry
-- victoria_base https://github.com/victoriarobotics/victoria_base
-- victoria_ros https://github.com/victoriarobotics/victoria_ros
+- kit_base https://github.com/kittcar/kitt_base
+- kit_ros https://github.com/kittcar/kitt_ros
 
 # How to:
 
-To launch victoria robot on an empty world:
-
-$ roslaunch victoria_gazebo victoria_empty_world.launch 
-
-To launch victoria robot on the test world:
-
-$ roslaunch victoria_gazebo victoria_test_world.launch 
+To launch kitt robot on an empty world:
+```
+$ roslaunch kitt_gazebo empty_world.launch 
+```
+To launch kitt robot on the test world:
+```
+$ roslaunch kitt_gazebo test_world.launch 
+```
